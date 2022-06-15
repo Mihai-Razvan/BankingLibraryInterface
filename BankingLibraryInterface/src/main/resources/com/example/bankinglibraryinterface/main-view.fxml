@@ -5,12 +5,39 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.bankinglibraryinterface.MainSceneController">
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.layout.Pane?>
+<BorderPane  xmlns:fx="http://javafx.com/fxml"
+      fx:id="borderPane">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+    <top>
+        <Pane fx:id="topPane"
+              border="solid black 2px"
+        />
+    </top>
+
+    <left>
+        <Pane fx:id="leftPane"/>
+    </left>
+
+    <bottom>
+        <Pane fx:id="bottomPane"/>
+    </bottom>
+
+    <right>
+        <Pane fx:id="rightPane"/>
+    </right>
+
+    <center>
+        <Pane fx:id="centerPane"/>
+        <Button fx:id="button" onAction="#click"></Button>
+    </center>
+
+
+
+</BorderPane>
