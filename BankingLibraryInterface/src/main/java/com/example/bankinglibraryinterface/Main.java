@@ -14,7 +14,9 @@ public class Main extends Application {
 
     private Scene scene;
     private BorderPane borderPane;
-    private TopPane topPane;
+    private static TopPane topPane;
+    private static RightPane rightPane;
+    private static CenterPane centerPane;
 
 
     @Override
@@ -32,7 +34,25 @@ public class Main extends Application {
     private void createScene()
     {
         topPane = new TopPane();
-        borderPane = new BorderPane(topPane.getPane());
+        rightPane = new RightPane();
+        centerPane = new CenterPane();
+        borderPane = new BorderPane();
+        borderPane.setTop(topPane.getPane());
+        borderPane.setRight(rightPane.getPane());
+        borderPane.setCenter(centerPane.getPane());
+
         scene = new Scene(borderPane, GlobalManager.getSCREEN_WIDTH(), GlobalManager.getSCREEN_HEIGHT());
+    }
+
+    public static TopPane getTopPane() {
+        return topPane;
+    }
+
+    public static RightPane getRightPane() {
+        return rightPane;
+    }
+
+    public static CenterPane getCenterPane() {
+        return centerPane;
     }
 }
