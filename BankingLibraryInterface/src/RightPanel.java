@@ -9,6 +9,7 @@ public class RightPanel {
         panel = new Panel();
         panel.setBackground(Color.magenta);
         panel.setBounds(frameWidth / 5 * 4, frameHeight / 10, frameWidth / 5, frameHeight / 10 * 9);
+        panel.setLayout(null);
     }
 
     public Panel getPanel() {
