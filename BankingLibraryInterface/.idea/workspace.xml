@@ -3,11 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="47e7beff-ec50-41d3-9bd3-abd2215514f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankingLibraryInterface/CenterPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankingLibraryInterface/CenterPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankingLibraryInterface/CenterPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankingLibraryInterface/CenterPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankingLibraryInterface/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankingLibraryInterface/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BankingLibraryInterface/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankingLibraryInterface/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankingLibraryInterface/RightPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankingLibraryInterface/RightPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankingLibraryInterface/TopPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankingLibraryInterface/TopPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankingLibraryInterface/TopPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankingLibraryInterface/TopPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CenterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CenterPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RightPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RightPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TopPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TEST/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +44,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BankingLibrary_GitRep/BankingLibrary" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../BankingLibraryInterface-main/BankingLibraryInterface" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -60,16 +68,5 @@
       <updated>1656318622434</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CenterPanel.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

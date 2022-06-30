@@ -1,17 +1,19 @@
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TopPanel {
 
-    private Panel panel;
-    private Button addButton;
+    private JPanel panel;
+    private JButton addButton;
 
     public TopPanel(int frameWidth, int frameHeight)
     {
-        panel = new Panel();
-        panel.setBackground(Color.blue);
+        panel = new JPanel();
+        panel.setBackground(new Color(240, 240, 240, 94));
         panel.setBounds(0, 0, frameWidth, frameHeight / 10);
+        panel.setBorder(BorderFactory.createMatteBorder(0,0,2,0, Color.black));
         panel.setLayout(null);
 
         setAddButton();
@@ -19,19 +21,19 @@ public class TopPanel {
 
     private void setAddButton()
     {
-        addButton = new Button("Add card");
+        addButton = new JButton("Add card");
         addButton.setBounds(100, 20, 100, 40);
         panel.add(addButton);
 
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Main.getCenterPanel().setAddCardPanelVisibility(true);
+                Main.getAddCardPanel().setAddCardPanelVisibility(true);
             }
         });
     }
 
-    public Panel getPanel() {
+    public JPanel getPanel() {
         return panel;
     }
 }
